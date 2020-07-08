@@ -41,6 +41,7 @@ class FileAttr extends GenericParameter
             throw new InvalidArgumentException('No file content provided');
         }
 
+
         /*if (preg_match(static::BASE64_VALIDATION_PATTERN, $content) == 0) {
             throw new InvalidArgumentException('File content must be base64 encoded');
         }*/
